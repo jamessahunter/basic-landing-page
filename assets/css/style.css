@@ -1,11 +1,15 @@
 *{
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+    margin: 0;
+    padding: 0;
 }
 body {
     position: relative;
-    margin: 0;
-    padding: 0;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     display: block;
+  }
+  main{
+    padding: 100px 0;
   }
 .header{
     position: fixed;
@@ -16,7 +20,8 @@ body {
     border-bottom: 10px solid darkblue;
     background-color: lightblue;
 }
-.header h1{
+h1{
+    margin: 20px;
     display: inline-block;
 }
 
@@ -31,25 +36,37 @@ body {
 .header ul li{
     display: inline-block;
 }
-
-.icecream{
-    position: relative;
-    margin: auto;
-    display: block;
-    height: 200px;
-    top:150px;
-   
+figure {
+    margin-bottom: 20px;
 }
-section h2{
-    position: relative;
+
+section {
+    margin-bottom: 0;
+    padding: 20px 10px 40px 10px;
+}
+/* .icecream{
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+} */
+
+img{
+    display: block;
+    margin: auto;
+    height: 200px;
+}
+figcaption {
     text-align: center;
     color: crimson;
-    z-index: 2;
+}
+form {
+    margin:0 auto;
+    width: 500px;
 
 }
-
 footer{
-    position: fixed; 
+    position: absolute; 
     left: 50%;
     bottom: 0;
 }
